@@ -60,22 +60,22 @@ const Footer = () => {
             <div className="space-y-3 text-sm">
               <div className="flex items-center space-x-2 text-muted-foreground">
                 <Mail size={16} />
-                <span>hello@buildu.ng</span>
+                <span>build.u123@gmail.com</span>
               </div>
               <div className="flex items-center space-x-2 text-muted-foreground">
                 <Phone size={16} />
-                <span>+234 (0) 800 BUILD</span>
+                <span>+234 701 919 2799</span>
               </div>
               <div className="flex items-center space-x-2 text-muted-foreground">
                 <MapPin size={16} />
-                <span>Lagos, Nigeria</span>
+                <span>Jos, Plateau, Nigeria</span>
               </div>
             </div>
           </div>
         </div>
 
         <div className="border-t border-border mt-8 pt-8 text-center text-sm text-muted-foreground">
-          <p>&copy; 2024 BuildU (formerly ConectUJ). All rights reserved. Built for Nigerian university students.</p>
+          <p>&copy; 2025 BuildU (formerly ConectUJ). All rights reserved. Built for Nigerian university students.</p>
         </div>
       </div>
     </footer>
