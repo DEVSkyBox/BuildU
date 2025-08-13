@@ -33,7 +33,7 @@ const About = () => {
             Our Story
           </div>
           <h2 className="text-3xl lg:text-4xl font-bold mb-6">
-            From ConectUJ to BuildU
+            About BuildU
           </h2>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
             BuildU is a digital technology company focused on creating student-centered platforms for 
