@@ -135,7 +135,7 @@ const AppPreview = () => {
 
         <div className="text-center mt-12">
           <p className="text-muted-foreground mb-4">
-            🎯 Expected Launch: Q2 2024 | Beta Testing: Available Soon
+            Beta Testing: Available Soon
           </p>
           <div className="inline-flex items-center px-6 py-3 rounded-full bg-gradient-to-r from-primary/10 to-primary/5 border border-primary/20">
             <span className="text-primary font-medium">Join our beta testing program to be among the first to experience BuildU</span>
