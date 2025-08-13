@@ -1,4 +1,4 @@
-import { Mail, Phone, MapPin, Twitter, Instagram, Linkedin } from "lucide-react";
+import { Mail, Phone, MapPin, Twitter, Instagram, Linkedin, MessageCircle } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -63,7 +63,7 @@ const Footer = () => {
                 <span>build.u123@gmail.com</span>
               </div>
               <div className="flex items-center space-x-2 text-muted-foreground">
-                <WhatsApp size={16} />
+                <MessageCircle size={16} />
                 <span>+234 701 919 2799</span>
               </div>
               <div className="flex items-center space-x-2 text-muted-foreground">
