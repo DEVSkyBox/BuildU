@@ -63,7 +63,7 @@ const Footer = () => {
                 <span>build.u123@gmail.com</span>
               </div>
               <div className="flex items-center space-x-2 text-muted-foreground">
-                <MessageCircle size={16} />
+                <Phone size={16} />
                 <span>+234 701 919 2799</span>
               </div>
               <div className="flex items-center space-x-2 text-muted-foreground">
