@@ -110,23 +110,20 @@ const AppPreview = () => {
                   <div className="flex items-center justify-between mb-3">
                     <h4 className="font-semibold">{feature.title}</h4>
                     <Badge 
-                      variant={
-                        feature.status === "Completed" ? "default" : 
-                        feature.status === "Testing" ? "secondary" : 
-                        feature.status === "Planning" ? "outline" : "secondary"
-                      }
+                      // variant={
+                      //   // feature.status === "Completed" ? "default" : 
+                      //   // feature.status === "Testing" ? "secondary" : 
+                      //   // feature.status === "Planning" ? "outline" : "secondary"
+                      // }
                     >
-                      {feature.status}
+                      {/* {feature.status} */}
                     </Badge>
                   </div>
                   <p className="text-sm text-muted-foreground mb-4">{feature.description}</p>
                   <div className="w-full bg-muted rounded-full h-2">
-                    <div 
-                      className="bg-gradient-to-r from-primary to-primary/80 h-2 rounded-full transition-all duration-300"
-                      style={{ width: `${feature.progress}%` }}
-                    ></div>
+                    
                   </div>
-                  <p className="text-xs text-muted-foreground mt-2">{feature.progress}% Complete</p>
+                  
                 </CardContent>
               </Card>
             ))}
@@ -138,7 +135,7 @@ const AppPreview = () => {
             Beta Testing: Available Soon
           </p>
           <div className="inline-flex items-center px-6 py-3 rounded-full bg-gradient-to-r from-primary/10 to-primary/5 border border-primary/20">
-            <span className="text-primary font-medium">Join our beta testing program to be among the first to experience BuildU</span>
+            <span className="text-primary font-medium w-[50%]"></span>
           </div>
         </div>
       </div>
