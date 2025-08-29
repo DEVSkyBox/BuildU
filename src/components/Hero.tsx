@@ -21,7 +21,7 @@ const Hero = () => {
               <h1 className="text-4xl lg:text-6xl font-bold leading-tight">
                 Empowering
                 <span className="block bg-gradient-to-r from-primary to-primary/80 bg-clip-text text-transparent">
-                  Nigerian Students Only
+                  Nigerian Students 
                 </span>
                 Digitally
               </h1>
@@ -75,7 +75,6 @@ const Hero = () => {
           </div>
         </div>
       </div>
-      {/* <ContactUspopUp open={open} onClose={() => setOpen(false)}></ContactUspopUp> */}
       
     </section>
   );
