@@ -15,19 +15,6 @@ const ContactUsPage = () => {
               <div className="lg:text-2xl font-semibold flex justify-center">
                 <h1>Contact Us</h1>
               </div>
-              <div>
-                <div>
-                  <div className='border-4'>
-                    <input type="text" placeholder="FullName" className="" />
-                  </div>
-                </div>
-                <div>
-                  <input type="text" placeholder="Email" />
-                </div>
-                <div>
-                  <input type="text" placeholder="Message" />
-                </div>
-              </div>
             </div>
           </div>
         </div>

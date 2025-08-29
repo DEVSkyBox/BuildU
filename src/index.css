@@ -6,6 +6,11 @@
 All colors MUST be HSL.
 */
 
+.bordnon:focus{
+  outline: none;
+  border: none;
+}
+
 @layer base {
   :root {
     --background: 0 0% 100%;
